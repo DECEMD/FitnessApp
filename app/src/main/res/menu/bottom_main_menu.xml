@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/lessons"
+        android:icon="@drawable/ic_calendar"
+        android:orderInCategory="100"
+        android:id="@+id/id_home"
+        />
+    <item
+        android:title="@string/requests"
+        android:icon="@drawable/ic_requests"
+        android:orderInCategory="200"
+        android:id="@+id/id_requests"
+
+        />
+    <item
+        android:title="@string/add_new"
+        android:icon="@drawable/ic_add_new"
+        android:orderInCategory="300"
+        android:id="@+id/id_add_new"
+        />
+    <item
+        android:title="@string/start_chat"
+        android:icon="@drawable/ic_chat"
+        android:orderInCategory="400"
+        android:id="@+id/id_chat"
+        />
+    <item
+        android:title="@string/more"
+        android:icon="@drawable/ic_more"
+        android:orderInCategory="500"
+        android:id="@+id/id_more"
+        />
+</menu>
